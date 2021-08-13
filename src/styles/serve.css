@@ -1,0 +1,89 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.slider_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.images{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+.sliders_btn{
+    position: absolute;
+ 
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.sliders_left_btn{
+    position: absolute;
+  
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.card__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_title{
+    position: absolute;
+    bottom: 200px;
+    color: #131313;
+    flex-direction: row;
+    flex-wrap: wrapmk;
+}
+.title_head{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+  
+  
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hero_contain{
+    text-align: center;
+}
+.slider_btn{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.slider_left_btn{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
