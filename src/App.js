@@ -7,9 +7,10 @@ import SMSForm from "./front/smsform";
 import { Breadcrumb } from "./components/breadcrumb";
 
 function App() {
+  const basename = process.env.BASENAME || "";
   return (
     <div className="d-flex flex-column h-100">
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Breadcrumb/>   
         <Navbar />
         <Switch>

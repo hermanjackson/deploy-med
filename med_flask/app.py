@@ -15,7 +15,7 @@ CORS(app)
 
 
 @app.route('/', methods=['POST'])
-@cross_origin()
+
 def sendSMS():
     account_sid = os.getenv("ACCOUNT_SID")
     auth_token = os.getenv("AUTH_TOKEN")
