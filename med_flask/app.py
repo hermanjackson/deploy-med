@@ -1,12 +1,12 @@
 import os
 from twilio.rest import Client
 from flask import Flask , request
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='medical-app/build', static_url_path="/api")
 
 
 CORS(app)
@@ -15,6 +15,7 @@ CORS(app)
 
 
 @app.route('/', methods=['POST'])
+@cross_origin()
 def sendSMS():
     account_sid = os.getenv("ACCOUNT_SID")
     auth_token = os.getenv("AUTH_TOKEN")
@@ -33,9 +34,12 @@ def sendSMS():
   
     return "hello"
 
-@app.route('/', methods=['GET'])
-def hello():
-    return "hello"
+@app.route('/api', methods=['GET'])
+@cross_origin()
+def serve():
+    return send_from_directory(app.static_folder, 'index.html')
+
+
 
 
 if __name__ == '__main__':

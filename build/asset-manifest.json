@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df2eaf22.chunk.css",
+    "main.js": "/static/js/main.a11cf29b.chunk.js",
+    "main.js.map": "/static/js/main.a11cf29b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a2459d62.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a2459d62.js.map",
+    "static/css/2.d10fdd74.chunk.css": "/static/css/2.d10fdd74.chunk.css",
+    "static/js/2.3c600e5d.chunk.js": "/static/js/2.3c600e5d.chunk.js",
+    "static/js/2.3c600e5d.chunk.js.map": "/static/js/2.3c600e5d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d10fdd74.chunk.css.map": "/static/css/2.d10fdd74.chunk.css.map",
+    "static/css/main.df2eaf22.chunk.css.map": "/static/css/main.df2eaf22.chunk.css.map",
+    "static/js/2.3c600e5d.chunk.js.LICENSE.txt": "/static/js/2.3c600e5d.chunk.js.LICENSE.txt",
+    "static/media/breadcrum.css": "/static/media/LogoMakr-4gZiBb.12f02b5f.png",
+    "static/media/account.5a2e7d42.jpg": "/static/media/account.5a2e7d42.jpg",
+    "static/media/acountimg.e89c0666.jpg": "/static/media/acountimg.e89c0666.jpg",
+    "static/media/avertimage.93174413.jpg": "/static/media/avertimage.93174413.jpg",
+    "static/media/chargeimage.ac349ee1.jpg": "/static/media/chargeimage.ac349ee1.jpg",
+    "static/media/claimsimage.01f429f1.jpg": "/static/media/claimsimage.01f429f1.jpg",
+    "static/media/codeimg.1b11cd6b.jpg": "/static/media/codeimg.1b11cd6b.jpg",
+    "static/media/contractimg.0a8f8c95.jpg": "/static/media/contractimg.0a8f8c95.jpg",
+    "static/media/credimage.1962ae86.jpg": "/static/media/credimage.1962ae86.jpg",
+    "static/media/denimg.c2098b6e.jpg": "/static/media/denimg.c2098b6e.jpg",
+    "static/media/home.css": "/static/media/image1.47f8c283.jpg",
+    "static/media/image3.d1f0a7ab.jpg": "/static/media/image3.d1f0a7ab.jpg",
+    "static/media/service.css": "/static/media/image4.6b12828b.jpg",
+    "static/media/irwan-iwe-rbDE93-0hHs-unsplash.01dba1a1.jpg": "/static/media/irwan-iwe-rbDE93-0hHs-unsplash.01dba1a1.jpg",
+    "static/media/payimage.43ab5dad.jpg": "/static/media/payimage.43ab5dad.jpg",
+    "static/media/scott-graham-5fNmWej4tAA-unsplash.a9bdd94e.jpg": "/static/media/scott-graham-5fNmWej4tAA-unsplash.a9bdd94e.jpg",
+    "static/media/shutterstock_375018883.ff510aa9.jpg": "/static/media/shutterstock_375018883.ff510aa9.jpg",
+    "static/media/thisisengineering-raeng-pIdteYOzGFY-unsplash.c7737e25.jpg": "/static/media/thisisengineering-raeng-pIdteYOzGFY-unsplash.c7737e25.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2459d62.js",
+    "static/css/2.d10fdd74.chunk.css",
+    "static/js/2.3c600e5d.chunk.js",
+    "static/css/main.df2eaf22.chunk.css",
+    "static/js/main.a11cf29b.chunk.js"
+  ]
+}
